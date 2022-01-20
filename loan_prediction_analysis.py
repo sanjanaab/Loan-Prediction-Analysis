@@ -20,10 +20,10 @@ import gradio as gr
 from array import *
 from transformers import pipeline
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
-df_train = pd.read_csv("/content/drive/MyDrive/train_ctrUa4K.csv") #Reading the dataset in a dataframe using Pandas
+df_train = pd.read_csv("train_ctrUa4K.csv") #Reading the dataset in a dataframe using Pandas
 
 df_train.head()
 
